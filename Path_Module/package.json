@@ -1,0 +1,20 @@
+{
+  "name": "path_module",
+  "version": "1.0.0",
+  "description": "Our first package json",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muxlisa-maxmudova/node.git"
+  },
+  "author": "Mukhlisa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muxlisa-maxmudova/node/issues"
+  },
+  "homepage": "https://github.com/muxlisa-maxmudova/node#readme"
+}
