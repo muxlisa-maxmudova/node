@@ -1,2 +1,2 @@
-const circle = require('./circle.js')
-console.log(circle.area(4))
+const hello = require('./hello')
+hello('Mukhlisa')
