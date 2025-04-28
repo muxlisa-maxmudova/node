@@ -1,2 +1,2 @@
 import path from 'path'
-console.log(path.basename('c:/Users/kumanboy/app.js'))
+console.log(path.dirname('c:/Users/kumanboy/app.js'))
