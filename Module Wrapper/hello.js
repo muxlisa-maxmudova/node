@@ -1,4 +1,2 @@
-function hello(name){
-    console.log("Hello,", name);
-}
-module.exports = hello;
+const tellMeHowAreYou = require('./foo.js');
+tellMeHowAreYou('excellent')
