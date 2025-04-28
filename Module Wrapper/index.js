@@ -1,4 +1,6 @@
-// how files were imported and exported before creation of modules
-function addTwo(num) {
-    return num + 2;
-}
+(function() {
+    console.log('Hello, Mukhlisa')
+})()// this is an anonymous function
+
+
+
