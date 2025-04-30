@@ -1,7 +1,9 @@
 import * as fs from "fs/promises";
     try{
-        await fs.rmdir('c:\\nodejs/home')
-        console.log("home dir deleted successfully")
+        const files = await fs.readdir('c:\\nodejs')
+          for (const file of files){
+              console.log(file)
+          }
     }
     catch (error){
         console.log(error)
